@@ -55,7 +55,7 @@ if (dummyBreak == 1){
 }
 }
 
-$(".startButton").click(function()
+$(".startButton").click(function(){
  clearInterval(intervalId);
  startTime();
  intervalId=setInterval(updateTime, 1000);
