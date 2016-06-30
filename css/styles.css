@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(50,150,200);
+  font-family: "Arial";
+
+}
+a{
+    color: rgb(0,0,0); 
+  }
+h2 {
+  color:rgb(256,256,256);
+}
+
+.row{
+  height: 50px;
+}
+
+.screenrow{
+  min-width: 100%;
+  min-height: 30px;
+  position: relative;
+  /*background-color: rgb(250,150,46);*/
+}
+
+.setlength{
+  display:inline;
+}
+.setwork{
+  display:inline;
+}
+.setbreak{
+  display:inline;
+}
+
+.timeSelect{
+  width: 30px;
+}
+
+.startButton{
+  padding: 10px 10px 10px 5px;
+  /*padding-right: 15px;*/
+  margin-left: 40%;
+  margin-top: 2%;
+  width: 20%;
+  text-align: center;
+  /*position: relative;*/
+  border: solid black 1px;
+  background-color: green;
+  display: block-inline;
+}
+.quotebox{
+  position: absolute;
+  text-align:center;
+  left: 25%;
+  height: 50%;
+  padding: 2%;
+  margin-top: 3%;
+  width: 50%;
+  background-color: rgb(250,150,46);
+  border: 3px;
+  border-color: black;
+  border-radius:35px;
+}
